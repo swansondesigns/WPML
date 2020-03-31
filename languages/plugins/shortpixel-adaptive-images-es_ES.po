@@ -1,0 +1,356 @@
+# Translation of Plugins - ShortPixel Adaptive Images - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - ShortPixel Adaptive Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-10 08:12:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - ShortPixel Adaptive Images - Stable (latest release)\n"
+
+#: inc/settings_page.php:307
+msgid " You can test your regex online, for example here: <a href=\"https://regex101.com/\" target=\"_blank\">regex101.com</a>. The rule for gravatar.com is included by default because many sites use gravatar and these images cannot be optimized, but if you're sure your site doesn't include gravatar URLs, feel free to remove it. "
+msgstr " Puedes probar tu expresión regular online, por ejemplo aquí: <a href=\"https://regex101.com/\" target=\"_blank\">regex101.com</a>. La regla para gravatar.com se incluye por defecto porque muchos sitios usan gravatar y estas imágenes no se pueden optimizar, pero si estás seguro de que tu sitio no incluye URLs de gravatar, no dudes en quitarla. "
+
+#: inc/settings_page.php:273
+msgid "Leave out completely:"
+msgstr "Excluir completamente:"
+
+#: inc/settings_page.php:268
+msgid "Don't resize:"
+msgstr "No redimensionar:"
+
+#: inc/settings_page.php:263
+msgid "Don't lazy-load:"
+msgstr "No usar carga diferida:"
+
+#: inc/settings_page.php:257
+msgid "Maximum width of the backgrounds, on all devices. Use to scale down huge backgrounds that are not lazy-loaded. Recommended value is 1920px"
+msgstr "Ancho máximo de los fondos, en todos los dispositivos. Úsalo para reescalar los fondos enormes que no se cargan de manera diferida. El valor recomendado es 1920px"
+
+#: inc/settings_page.php:253
+msgid "Backgrounds maximum width"
+msgstr "Ancho máximo de fondos"
+
+#: inc/settings_page.php:249
+msgid "This will make the backgrounds in STYLE blocks be loaded after the device with is determined. Will also impose a maximum width of the backgrounds equal to the viewport width."
+msgstr "Esto hará que los fondos en bloques STYLE se carguen después de que se determine el ancho del dispositivo. También aplicará un ancho máximo de los fondos igual al ancho de la ventana."
+
+#: inc/settings_page.php:246
+msgid "Lazy-load the background images from inline STYLE blocks."
+msgstr "Aplica carga diferida a las imágenes de fondo de los bloques STYLE integrados."
+
+#: inc/settings_page.php:243
+msgid "Lazy-load the backgrounds"
+msgstr "Fondos con carga diferida"
+
+#: inc/settings_page.php:179 inc/settings_page.php:311
+msgid "Read more"
+msgstr "Leer más"
+
+#: inc/settings_page.php:178
+msgid "The images will be smaller and no information about author/location will be present in the image."
+msgstr "Las imágenes serán más pequeñas y no habrá información acerca del autor/ubicación en la imagen."
+
+#: inc/settings_page.php:175
+msgid "Remove the EXIF info from the images."
+msgstr "Elimina la información EXIF de las imágenes."
+
+#: inc/settings_page.php:172
+msgid "Remove EXIF"
+msgstr "Eliminar EXIF"
+
+#: inc/settings_page.php:168
+msgid "The plugin will identify cases when not all the image is displayed and crop it accordingly. This might not work for some backgrounds (won't harm them though)."
+msgstr "El plugin identificará casos en los que no se muestra toda la imagen y la recortará en consecuencia. Esto podría no funcionar para algunos fondos (sin embargo, no los dañará)."
+
+#: inc/settings_page.php:165
+msgid "Smartly crop the images when possible and safe."
+msgstr "Recorta las imágenes de forma inteligente cuando sea posible y seguro."
+
+#: inc/settings_page.php:163
+msgid "Smart crop"
+msgstr "Recorte inteligente"
+
+#: inc/settings_page.php:29
+msgid "ShortPixel AI Settings"
+msgstr "Ajustes de ShortPixel AI"
+
+#: inc/notices.php:97
+msgid "The option \"Cookie Confirmation Type\" is set to Opt-in in Ginger - EU Cookie Law and this conflicts with ShortPixel. Please <a href=\"admin.php?page=ginger-setup\">set it differently</a> to let ShortPixel Adaptive Images serve the images properly optimized and scaled. <a href=\"https://shortpixel.helpscoutdocs.com/article/198-shortpixel-adaptive-images-vs-autoptimizes-optimize-images-option\">More info.</a>"
+msgstr "La opción \"Tipo de confirmación de cookie\" está establecida en Opt-in en Ginger - EU Cookie Law y esto entra en conflicto con ShortPixel. Por favor, <a href=\"admin.php?page=ginger-setup\">cámbiala</a> para dejar que ShortPixel Adaptive Images sirva las imágenes adecuadamente sirva las imágenes correctamente optimizadas y redimensionadas. <a href=\"https://shortpixel.helpscoutdocs.com/article/198-shortpixel-adaptive-images-vs-autoptimizes-optimize-images-option\">Más información.</a>"
+
+#: inc/settings_page.php:300
+msgid "If it's a <strong>path:</strong> rule, you can specify full URLs, domain names like gravatar.com or paths like /my-custom-image-folder/."
+msgstr "Si es una regla de <strong>path:</strong>, puedes especificar URLs completas, nombres de dominio como gravatar.com o rutas como /mi-carpeta-deimagenes-personalizada/."
+
+#: inc/settings_page.php:297
+msgid "If it's a <strong>regex:</strong>, you can specify a full regex (ex: /.*\\.gif$/i will exclude GIF images)."
+msgstr "Si es una <strong>regex:</strong>, puedes especificar una expresión regular completa (por ejemplo: /.*\\.gif$/i incluirá imágenes GIF)."
+
+#: inc/settings_page.php:293
+msgid "Specify a list of URL exclusion rules, one per line. An exclusion rule starts either by <strong>path:</strong> or by <strong>regex:</strong>. After the colon:"
+msgstr "Especifica una lista de reglas de exclusión de URLs, una por línea. Una regla de exclusión empieza por <strong>path:</strong> o por <strong>regex:</strong>. Después de los dos puntos:"
+
+#: inc/settings_page.php:284
+msgid "Excluded URLs"
+msgstr "URLs excluidas"
+
+#: inc/settings_page.php:280
+msgid "Specify  a coma separated list of CSS selectors for images which should be left to their original width on the page, or should be kept with their original URLs. Needed for images which can for example zoom in on hover. Keep these lists as small as possible. Rules like <strong>'img.myclass'</strong> are preferable as they are treated server-side at page rendering."
+msgstr "Especifica una lista, separada por comas, de selectores de CSS de imágenes que deberían dejarse con la anchura original en la página, o que deberían mantener sus URLs originales. Es necesario para imágenes que pueden, por ejemplo, hacer zoom al pasar el cursor. Mantén estas listas tan pequeñas como sea posible. Las reglas como <strong>'img.myclass'</strong> son preferibles ya que se tratan en el lado del servidor al renderizarse la página."
+
+#: inc/settings_page.php:261
+msgid "Excluded selectors"
+msgstr "Selectores excluidos"
+
+#: inc/settings_page.php:237
+msgid "Use SRCSET if you have images that dynamically change size (enlarge on hover, etc.)"
+msgstr "Usa SRCSET si tienes imágenes que cambian dinámicamente de tamaño (ampliar al pasar el cursor, etc.)"
+
+#: inc/settings_page.php:232
+msgid "<b>EXPERIMENTAL:</b> Use SRCSET if you still encounter problems with specific content."
+msgstr "<b>EXPERIMENTAL:</b> Usa SRCSET si aún encuentras problemas con contenido específico."
+
+#: inc/settings_page.php:229
+msgid "<b>EXPERIMENTAL:</b> Use BOTH if you have images that dynamically change size (enlarge on hover, etc.)"
+msgstr "<b>EXPERIMENTAL:</b> Usa BOTH si tienes imágenes que cambian dinámicamente de tamaño (ampliar al pasar el cursor, etc.)"
+
+#: inc/settings_page.php:226 inc/settings_page.php:236
+msgid "SRC makes sure as many images as possible are used with best fit."
+msgstr "SRC se asegura de que se utilicen tantas imágenes como sea posible con los mejores ajustes."
+
+#: inc/settings_page.php:222
+msgid "Replace method"
+msgstr "Método de reemplazo"
+
+#: inc/settings_page.php:218
+msgid "Do <strong>not</strong> change this unless you plan on using your own CDN and you have it already configured to use ShortPixel.ai service. Check out <a href=\"https://shortpixel.helpscoutdocs.com/article/180-can-i-use-a-different-cdn-with-shortpixel-adaptive-images\" target=\"_blank\">here</a> or <a href=\"https://shortpixel.helpscoutdocs.com/article/200-setup-your-stackpath-account-so-that-it-can-work-with-shortpixel-adaptive-images-api\" target=\"_blank\">here</a> for examples"
+msgstr "<strong>No</strong> cambies esto a menos que planees usar tu propia CDN y ya la hayas configurado para usar el servicio ShortPixel.ai. Para ver ejemplos, mira <a href=\"https://shortpixel.helpscoutdocs.com/article/180-can-i-use-a-different-cdn-with-shortpixel-adaptive-images\" target=\"_blank\">aquí</a> o <a href=\"https://shortpixel.helpscoutdocs.com/article/200-setup-your-stackpath-account-so-that-it-can-work-with-shortpixel-adaptive-images-api\" target=\"_blank\">aquí</a>"
+
+#: inc/settings_page.php:212
+msgid "API URL"
+msgstr "URL de la API"
+
+#: inc/settings_page.php:210
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: inc/settings_page.php:200
+msgid "Don't integrate with any of the image galleries"
+msgstr "No integrar con ninguna de las galerías de imágenes"
+
+#: inc/settings_page.php:199
+msgid "Lets you chose which galleries will have their images replaced."
+msgstr "Te deja escoger de qué galerías se reemplazarán las imágenes."
+
+#: inc/settings_page.php:198
+msgid "<b>Activate it for the installed gallery plugins. Currently Envira, Modula, Elementor, Essential add-ons for Elementor, Everest and the default WordPress gallery are supported"
+msgstr "<b>Actívalo para los plugins de galería instalados. Actualmente compatible con Envira, Modula, Elementor, Essential add-ons for Elementor, Everest y la galería por defecto de WordPress"
+
+#: inc/settings_page.php:196
+msgid "Integrate with the most common image galleries."
+msgstr "Integrar con las galerías de imágenes más comunes."
+
+#: inc/settings_page.php:194
+msgid "None"
+msgstr "Ninguna"
+
+#: inc/settings_page.php:192
+msgid "Manual"
+msgstr "Manual"
+
+#: inc/settings_page.php:190
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/settings_page.php:185
+msgid "Galleries integration"
+msgstr "Integración con galerias"
+
+#: inc/settings_page.php:158
+msgid "If you experience problems with images that zoom on hover or have other special effects, try deactivating this option."
+msgstr "Si experimentas problemas con las imágenes que se amplían al pasar el cursor o tienen otros efectos especiales, intenta desactivar esta opción."
+
+#: inc/settings_page.php:155
+msgid "Fade-in the lazy-loaded images."
+msgstr "Aparición gradual de las imágenes cargadas de manera diferida."
+
+#: inc/settings_page.php:153
+msgid "Fade-in effect"
+msgstr "Efecto de aparición gradual"
+
+#: inc/settings_page.php:148
+msgid "The conversion and optimization from the original image format to WebP will be done one-the-fly by ShortPixel. Recommended for SEO."
+msgstr "ShortPixel realizará sobre la marcha la conversión y la optimización del formato de imagen original a WebP. Recomendado para SEO."
+
+#: inc/settings_page.php:145
+msgid "Serve the images in the next-gen WebP image format to all the browsers that <a href=\"https://caniuse.com/#search=webp\" target=\"_blank\">support</a> it."
+msgstr "Sirve las imágenes en el formato de imagen de próxima generación WebP en todos los navegadores que sean <a href=\"https://caniuse.com/#search=webp\" target=\"_blank\">compatibles</a>."
+
+#: inc/settings_page.php:143
+msgid "WebP Support"
+msgstr "Soporte WebP"
+
+#: inc/settings_page.php:136
+msgid ""
+"<b>Lossless compression: </b> the resulting image is pixel-identical with the original image.</br>Make sure not a single pixel looks different in the optimized image compared with the original.\n"
+"                                    In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+msgstr ""
+"<b>Compresión sin pérdida: </b> la imagen resultante es idéntica en píxeles a la imagen original.</br>Se asegura de que ni un solo píxel se ve diferente en la imagen optimizada en comparación con la original.\n"
+"                                    En algunos casos raros necesitarás usar este tipo de compresión, por ejemplo, algunos dibujos técnicos o imágenes de gráficos vectoriales."
+
+#: inc/settings_page.php:135
+msgid "<b>Glossy compression: </b>creates images that are almost pixel-perfect identical to the originals.</br> Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+msgstr "<b>Compresión glossy: </b>crea imágenes que son casi idénticas en los píxeles de los originales.</br> La mejor opción para fotógrafos y otros profesionales que tienen que usar imágenes de mucha calidad en sus sitios y quieren ver una buena compresión sin que la calidad disminuya."
+
+#: inc/settings_page.php:134
+msgid "<b>Lossy compression (recommended): </b>offers the best compression rate.</br> This is the recommended option for most users, producing results that look the same as the original to the human eye."
+msgstr "<b>Compresión con pérdida (recomendado): </b>ofrece la mejor tasa de compresión.</br> Esta es la opción recomendada para la mayoría de los usuarios, ya que produce resultados que se ven igual que el original al ojo humano."
+
+#: inc/settings_page.php:132
+msgid "Make a few tests</a> to help you decide."
+msgstr "Haz algunas pruebas</a> para decidirte."
+
+#: inc/settings_page.php:131 inc/settings_page.php:195
+msgid "Make sure not a single pixel looks different in the optimized image compared with the original. In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+msgstr "Se asegura de que ni un solo píxel se ve diferente en la imagen optimizada en comparación con la original. En algunos casos raros necesitarás usar este tipo de compresión, por ejemplo, algunos dibujos técnicos o imágenes de gráficos vectoriales."
+
+#: inc/settings_page.php:130
+msgid "Lossless"
+msgstr "Sin pérdida"
+
+#: inc/settings_page.php:129 inc/settings_page.php:193
+msgid "Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+msgstr "La mejor opción para fotógrafos y otros profesionales que tienen que usar imágenes de mucha calidad en sus sitios y quieren ver una buena compresión sin que la calidad disminuya."
+
+#: inc/settings_page.php:128
+msgid "Glossy"
+msgstr "Glossy"
+
+#: inc/settings_page.php:127 inc/settings_page.php:191
+msgid "This is the recommended option in most cases, producing results that look the same as the original to the human eye."
+msgstr "Esta es la opción recomendada para la mayoría de los usuarios, ya que produce resultados que se ven igual que el original al ojo humano."
+
+#: inc/settings_page.php:126
+msgid "Lossy"
+msgstr "Con pérdida"
+
+#: inc/settings_page.php:121
+msgid "Compression Level"
+msgstr "Nivel de compresión"
+
+#: inc/settings_page.php:118
+msgid "If it is the first time you're using ShortPixel Adaptive Images please read our quick introduction on <a href=\"https://shortpixel.helpscoutdocs.com/article/231-step-by-step-guide-to-install-and-use-shortpixel-adaptive-images-spai#get-started\" target=\"_blank\">how to get started</a>."
+msgstr "Si es la primera vez que usas ShortPixel Adaptive Images, por favor, lee nuestra introducción rápida en <a href=\"https://shortpixel.helpscoutdocs.com/article/231-step-by-step-guide-to-install-and-use-shortpixel-adaptive-images-spai#get-started\" target=\"_blank\">cómo empezar</a>."
+
+#: inc/settings_page.php:117
+msgid "General"
+msgstr "General"
+
+#: inc/short-pixel-ai.class.php:312
+msgid "to turn off the Lazy Load option."
+msgstr "para desactivar la opción de carga diferida."
+
+#: inc/short-pixel-ai.class.php:311
+msgid "Open the WP Rocket Settings"
+msgstr "Abre los ajustes de WP Rocket"
+
+#: inc/notices.php:103
+msgid "ShortPixel Adaptive Images has detected that your theme or another plugin is providing lazy-loading functionality to your website. ShortPixel Adaptive Images is also using a lazy-loading method as means to provide its service, so please deactivate the other lazy-loading setting."
+msgstr "ShortPixel Adaptive Images ha detectado que tu tema u otro plugin proporciona la funcionalidad de carga diferida a tu web. ShortPixel Adaptive Images también utiliza un método de carga diferida como medio para proporcionar su servicio, así que, por favor, desactiva el otro ajuste de carga diferida."
+
+#: inc/notices.php:102
+msgid "ShortPixel Adaptive Images conflicts with other lazy-loading settings"
+msgstr "Conflicto entre ShortPixel Adaptive Images y otros ajustes de carga diferida"
+
+#: inc/notices.php:91
+msgid "ShortPixel Adaptive Images and ShortPixel Image Optimizer are both set to do Lossy optimization which could result in a too aggressive optimization of your images, please set one of them on Lossless."
+msgstr "ShortPixel Adaptive Images y ShortPixel Image Optimizer están configurados para realizar optimización con pérdida, lo que podría resultar en una optimización demasiado agresiva de tus imágenes. Por favor, configura uno de ellos en Sin pérdida."
+
+#: inc/notices.php:90
+msgid "ShortPixel optimization alert"
+msgstr "Alerta de optimización de ShortPixel"
+
+#: inc/notices.php:85
+msgid "The option \"Optimize images on the fly and serve them from a CDN.\" is active in Autoptimize. Please <a href=\"options-general.php?page=autoptimize_imgopt\">deactivate it</a> to let ShortPixel Adaptive Images serve the images properly optimized and scaled. <a href=\"https://shortpixel.helpscoutdocs.com/article/198-shortpixel-adaptive-images-vs-autoptimizes-optimize-images-option\">More info.</a>"
+msgstr "La opción \"Optimiza imágenes sobre la marcha y sírvelas desde la CDN global de Shortpixel.\" está aciva en Autoptimize. Por favor, <a href=\"options-general.php?page=autoptimize_imgopt\">desactívala</a> para permitir que ShortPixel Adaptive Images sirva las imágenes correctamente optimizadas y redimensionadas. <a href=\"https://shortpixel.helpscoutdocs.com/article/198-shortpixel-adaptive-images-vs-autoptimizes-optimize-images-option\">Más información.</a>"
+
+#: inc/notices.php:79
+msgid "The option \"CSS Print Method\" is set on External File in your Elementor options. Please <a href=\"themes.php?page=elementor#tab-advanced\">change it to Internal Embedding</a> to let ShortPixel Adaptive Images also optimize background images."
+msgstr "La opción \"Método de impresión de CSS\" está establecida en Fichero externo en tus opciones de Elementor. Por favor, <a href=\"themes.php?page=elementor#tab-advanced\">cámbialo a Incrustación interna</a> para permitir que ShortPixel Adaptive Images también optimice imágenes de fondo."
+
+#: inc/notices.php:73
+msgid "The option \"Enable Lazy Loading\" is active in your Avada theme options, under the Performance section. Please <a href=\"themes.php?page=avada_options\">deactivate it</a> to let ShortPixel Adaptive Images serve the images properly optimized and scaled."
+msgstr "La opción \"Activar carga diferida\" está activa en las opciones de tu tema Avada, en la sección Rendimiento. Por favor, <a href=\"themes.php?page=avada_options\">desactívala</a> para permitir que ShortPixel Adaptive Images sirva las imágenes correctamente optimizadas y redimensionadas."
+
+#: inc/notices.php:72 inc/notices.php:78 inc/notices.php:84 inc/notices.php:96
+msgid "ShortPixel Adaptive Images conflict"
+msgstr "Conflicto con ShortPixel Adaptive Images"
+
+#: inc/notices.php:66
+msgid "If you  <a href=\"https://shortpixel.com/otp/af/MNCMIUS28044\"><strong>sign-up now</strong></a> with ShortPixel you will receive 1,000 more free credits and also you'll get 50% bonus credits to any purchase that you'll choose to make. Image optimization credits can be purchased with as little as $4.99 for 7,500 credits (including the 50% bonus)."
+msgstr "Si te <a href=\"https://shortpixel.com/otp/af/MNCMIUS28044\"><strong>registras ahora</strong></a> en ShortPixel recibirás 1,000 créditos más gratis y también un 50% más de créditos adicionales en cualquier compra que vayas a hacer. Los créditos de optimización de imagen se pueden comprar por tan poco como a partir de $4.99 por 7,500 créditos (incluyendo el extra del 50%)."
+
+#: inc/notices.php:64
+msgid "Please <a href=\"https://shortpixel.com/plans2\">login to your account</a> to purchase more credits."
+msgstr "Por favor, <a href=\"https://shortpixel.com/plans2\">inicia sesión en tu cuenta</a> para comprar más créditos."
+
+#: inc/notices.php:59
+msgid "The already optimized images will still be served from the ShortPixel CDN for up to 30 days but the images that weren't already optimized and cached via CDN will be served directly from your website."
+msgstr "Las imágenes ya optimizadas seguirán siendo entregadas desde la CDN de ShortPixel durante 30 días como máximo, pero las imágenes que aún no se optimizaron y almacenado en la memoria caché de la CDN se entregarán directamente desde tu sitio web."
+
+#: inc/notices.php:56
+msgid "Your ShortPixel Adaptive Images quota has been exceeded. :-("
+msgstr "Se ha agotado tu cuota de ShortPixel Adaptive Images. :-("
+
+#: inc/notices.php:54
+msgid "Please note that your ShortPixel Adaptive Images quota will be exhausted soon."
+msgstr "Por favor, ten en cuenta que tu cuota de ShortPixel Adaptive Images se agotará pronto."
+
+#: inc/notices.php:51
+msgid "ShortPixel Adaptive Images notice"
+msgstr "Aviso de ShortPixel Adaptive Images"
+
+#: inc/notices.php:45
+msgid "You already have a ShortPixel account for this website: <strong>%s</strong>. Do you want to use ShortPixel Adaptive Images with this account?"
+msgstr "Ya tienes una cuenta de ShortPixel para esta web: <strong>%s</strong>. ¿Quieres utilizar ShortPixel Adaptive Images con esta cuenta?"
+
+#: inc/notices.php:44
+msgid "ShortPixel account"
+msgstr "Cuenta de ShortPixel"
+
+#: inc/notices.php:40
+msgid "Currently the plugin is in the Beta phase. While we have tested it a lot, we can't possibly test it with all the themes out there. On Javascript-intensive themes, layout issues could occur or some images might not be replaced. If you notice any problems, you just need to deactivate the plugin and the site will return to the previous state. Please kindly <a href=\"https://shortpixel.com/contact\">let us know</a> and we'll be more than happy to work them out, as we're frankly depending on you to find such cases."
+msgstr "Actualmente el plugin está en fase Beta. Aunque lo hemos testado mucho, no tenemos posibilidad de testarlo con todos los temas que existen. En temas que hacen un uso intensivo de Javascript, es posible que hayan problemas de estructura/diseño, o que algunas imágenes no se reemplacen. Si notas alguno de estos problemas, solo tienes que desactivar el plugin y el sitio volverá al estado anterior. Por favor, <a href=\"https://shortpixel.com/contact\">háznoslo saber</a> y estaremos encantados de solucionarlos, ya que francamente dependemos de ti para encontrar tales casos."
+
+#: inc/notices.php:39
+msgid "ShortPixel Adaptive Images is in BETA"
+msgstr "ShortPixel Adaptive Images está en BETA"
+
+#: inc/notices.php:30
+msgid "Dismiss"
+msgstr "Descartar"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com"
+msgstr "https://shortpixel.com"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Description of the plugin
+msgid "Display properly sized, smart cropped and optimized images on your website. Images are processed on the fly and served from our CDN."
+msgstr "Muestra imágenes con un tamaño adecuado, recortadas de manera inteligente y optimizadas en tu web. Las imágenes se procesan sobre la marcha y se sirven desde nuestra CDN."
+
+#. Plugin URI of the plugin
+msgid "https://shortpixel.com/"
+msgstr "https://shortpixel.com/"
+
+#. Plugin Name of the plugin
+msgid "ShortPixel Adaptive Images"
+msgstr "ShortPixel Adaptive Images"

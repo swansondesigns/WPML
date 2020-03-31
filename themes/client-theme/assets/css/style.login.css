@@ -1,0 +1,33 @@
+body, p {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #016285;
+  font-family: 'Boogaloo', cursive; }
+  h1 a,
+  h1 a:visited, h2 a,
+  h2 a:visited, h3 a,
+  h3 a:visited, h4 a,
+  h4 a:visited, h5 a,
+  h5 a:visited, h6 a,
+  h6 a:visited {
+    color: inherit; }
+
+body.login {
+  background-color: #016285;
+  background-image: url("../images/backgrounds/login.jpg");
+  background-size: contain;
+  display: flex; }
+  body.login #login {
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8); }
+    body.login #login #login_error,
+    body.login #login .message,
+    body.login #login .success {
+      border-left: 4px solid #016285; }
+    body.login #login .button-primary {
+      background: #016285;
+      box-shadow: 0 1px 0 #016285;
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 0 -1px 1px #016285, 1px 0 1px #016285, 0 1px 1px #016285, -1px 0 1px #016285; }

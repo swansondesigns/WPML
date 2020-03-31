@@ -1,0 +1,39 @@
+#masthead {
+	border-bottom: 1px solid $color-background-3;
+	width: 100%;
+	background-color: $color-background-1;
+	box-shadow: 0 4px $color-background-3;
+
+	& > * {
+		width: auto;
+		clear: none;
+	}
+	.site-branding {
+		float: left;
+		height: 140px;
+		padding: 10px;
+		padding-left: 5%;
+		a.custom-logo-link {
+			height: 50%;
+			@include vertical-align-center;
+			img.custom-logo {
+				width: auto;
+    			max-height: 100%;
+			}
+		}
+	}
+	nav#site-navigation {
+		float: right;
+		height: 100%;
+		border: 1px solid red;
+
+		.menu-main-container {
+
+			@include vertical-align-center;
+
+		}
+	}
+}
+
+
+@import 'header/header-sticky';

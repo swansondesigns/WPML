@@ -1,0 +1,125 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2019-09-18 19:34:46
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.4.1
+WORDPRESS:	5.2.3
+PHP INFO:	7.3.8 | SAPI: apache2handler
+SERVER:		Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	8MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+
+TABLES: total:36 | filtered:0 | create:36
+FILTERED: []
+SCHEMA SIZE: [13156352]
+SQL CREATED: 20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_database.sql
+SQL FILE SIZE: 5.33MB
+SQL FILE TIME: 2019-09-18 19:34:52
+SQL RUNTIME: 5.857 sec.
+MEMORY STACK: 14MB
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/sites/wpml.xyz
+ARCHIVE FILE: 20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	233.57MB
+STATS:	Dirs 2,643 | Files 20,428 | Total 23,071
+SQL ADDED: 20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6220
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8040
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 16475
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 19663
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 22407
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 23071
+    [filename] => C:\xampp\htdocs\sites\wpml.xyz\wp-content\backups-dup-pro\tmp\20190918_wpmltest_3e4f7e4f0a3827543030_20190918193414_archive.zip
+    [comment] => 
+)
+
+COMPRESSED SIZE: 84.03MB
+ARCHIVE RUNTIME: 11.569 sec.
+MEMORY STACK: 10MB
+Installer files added to archive
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, C:/xampp/htdocs/sites/wpml.xyz/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 5.33MB
+INSTALLER FILE: 59.09KB
+ARCHIVE FILE: 85.51MB 
+EXPECTED FILE/DIRECTORY COUNT: 23,071
+ACTUAL FILE/DIRECTORY COUNT: 23,071
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 118.139 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20190918_wpmltest 2019-09-18 19:36:44
+

@@ -1,0 +1,44 @@
+body, p {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #016285;
+  font-family: 'Boogaloo', cursive; }
+  h1 a,
+  h1 a:visited, h2 a,
+  h2 a:visited, h3 a,
+  h3 a:visited, h4 a,
+  h4 a:visited, h5 a,
+  h5 a:visited, h6 a,
+  h6 a:visited {
+    color: inherit; }
+
+#wpadminbar {
+  background: #016285;
+  background: #3192B2;
+  color: #02424C; }
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback, #adminmenuwrap {
+  background-color: #02424C; }
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+  background-color: #02424C; }
+
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu {
+  background-color: #02424C; }
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+  background-color: #016285; }
+
+.no-js li.wp-has-current-submenu:hover .wp-submenu {
+  background-color: #016285; }

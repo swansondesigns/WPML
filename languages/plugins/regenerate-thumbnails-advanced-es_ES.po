@@ -1,0 +1,330 @@
+# Translation of Plugins - reGenerate Thumbnails Advanced - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - reGenerate Thumbnails Advanced - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-04 09:13:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - reGenerate Thumbnails Advanced - Stable (latest release)\n"
+
+#: includes/rta_class.php:56
+msgid "This will stop the regeneration process. You want to stop?"
+msgstr "Esto parará el proceso de regeneración. ¿Quieres parar?"
+
+#: includes/rta_class.php:55
+msgid "Are you sure you want to delete this image size?"
+msgstr "¿Estás seguro de que quieres eliminar este tamaño de imagen?"
+
+#: classes/rta_admin_controller.php:236
+msgid "Keep existing"
+msgstr "Mantener existentes"
+
+#: templates/admin/view_rta_regenerate.php:46
+msgid "Save your settings first"
+msgstr "Guarda tus ajustes primero"
+
+#: templates/admin/view_rta_regenerate.php:45
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: templates/admin/view_regenerate_process.php:82
+msgid "%s Activate ShortPixel %s to optimize your newly generated thumbnails."
+msgstr "%s Activa ShortPixel %s para optimizar las miniaturas recién generadas."
+
+#: templates/admin/view_regenerate_process.php:77
+msgid "Thumbnails successfully regenerated. Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails."
+msgstr "Miniaturas correctamente regeneradas. Ve a la %s página de ShortPixel en lotes %s para optimizar las miniaturas actualizadas."
+
+#: templates/admin/view_regenerate_process.php:67
+msgid "More info"
+msgstr "Más información"
+
+#: templates/admin/view_regenerate_process.php:63
+msgid "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Enable Media Replace user! Forever!"
+msgstr "¡Consigue que Google te quiera más al comprimir las imágenes de tu sitio! ¡Comprueba cuánto puede ahorrar ShortPixel en tu sitio y obtén +50% de créditos al registrarte como usuario de Enable Media Replace! ¡Para siempre!"
+
+#: templates/admin/view_regenerate_process.php:54
+msgid "Optimize your images with ShortPixel, get +50% credits!"
+msgstr "Optimiza tus imágenes con ShortPixel, ¡obtén +50% de créditos!"
+
+#: templates/admin/view_regenerate_process.php:36
+msgid "Error(s)"
+msgstr "Error(es)"
+
+#: templates/admin/view_regenerate_process.php:33
+msgid "There were some errors, click for details"
+msgstr "Hay algunos errores, haz clic para más detalles"
+
+#: templates/admin/view_regenerate_process.php:29
+msgid "Stop Process"
+msgstr "Parar proceso"
+
+#: templates/admin/view_regenerate_process.php:25
+msgid "Regenerated image:"
+msgstr "Imagen regenerada:"
+
+#: templates/admin/view_regenerate_process.php:4
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: templates/admin/view_rta_settings.php:80
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#: templates/admin/view_rta_settings.php:81
+msgid "Deselect All"
+msgstr "Anular todas las selecciones"
+
+#: classes/rta_admin_controller.php:32
+msgid "Right bottom"
+msgstr "Derecha abajo"
+
+#: classes/rta_admin_controller.php:31
+msgid "Right center"
+msgstr "Derecha centro"
+
+#: classes/rta_admin_controller.php:30
+msgid "Right top"
+msgstr "Derecha arriba"
+
+#: classes/rta_admin_controller.php:29
+msgid "Center bottom"
+msgstr "Centro abajo"
+
+#: classes/rta_admin_controller.php:28
+msgid "Center center"
+msgstr "Centro centro"
+
+#: classes/rta_admin_controller.php:27
+msgid "Center top"
+msgstr "Centro arriba"
+
+#: classes/rta_admin_controller.php:26
+msgid "Left bottom"
+msgstr "Izquierda abajo"
+
+#: classes/rta_admin_controller.php:25
+msgid "Left center"
+msgstr "Izquierda centro"
+
+#: classes/rta_admin_controller.php:24
+msgid "Left top"
+msgstr "Izquierda arriba"
+
+#: classes/rta_admin_controller.php:23
+msgid "Yes"
+msgstr "Sí"
+
+#: classes/rta_admin_controller.php:22
+msgid "No"
+msgstr "No"
+
+#: templates/admin/view_rta_regenerate.php:37
+msgid "Delete all the metadata associated with missing (non-existing) images. Keep in mind there is no undo!"
+msgstr "Borra todos los metadatos asociados con imágenes que faltan (no existentes). ¡Ten en cuenta que esto no se puede deshacer!"
+
+#: templates/admin/view_rta_regenerate.php:35
+msgid "Delete Leftover Image Metadata"
+msgstr "Borrar metadatos de imágenes sobrantes"
+
+#: templates/admin/view_rta_settings.php:84
+msgid "Select the thumbnails you want to have available in your system. "
+msgstr "Selecciona las miniaturas que quieras tener disponibles en tu sistema."
+
+#: templates/admin/view_rta_settings.php:76
+msgid "Use selected thumbnails:"
+msgstr "Usar miniaturas seleccionadas:"
+
+#: templates/admin/view_rta_settings.php:48
+#: templates/admin/view_rta_settings.php:64
+msgid "Remove"
+msgstr "Eliminar"
+
+#: templates/admin/view_rta_settings.php:45
+#: templates/admin/view_rta_settings.php:61
+msgid "Image Size name"
+msgstr "Nombre del tamaño de imagen"
+
+#: templates/admin/view_rta_settings.php:37
+#: templates/admin/view_rta_settings.php:55
+msgid "Height"
+msgstr "Altura"
+
+#: templates/admin/view_rta_settings.php:35
+#: templates/admin/view_rta_settings.php:54
+msgid "Width"
+msgstr "Anchura"
+
+#: templates/admin/view_rta_settings.php:19
+msgid "Image Size Name"
+msgstr "Nombre del tamaño de imagen"
+
+#: templates/admin/view_rta_settings.php:18
+msgid "Cropping"
+msgstr "Cortar"
+
+#: templates/admin/view_rta_settings.php:17
+msgid "Max. Height"
+msgstr "Altura máxima"
+
+#: templates/admin/view_rta_settings.php:16
+msgid "Max. Width"
+msgstr "Anchura máxima"
+
+#: templates/admin/view_rta_settings.php:15
+#: templates/admin/view_rta_settings.php:33
+#: templates/admin/view_rta_settings.php:53
+msgid "Image Size Public Name"
+msgstr "Nombre público del tamaño de imagen"
+
+#: templates/admin/view_rta_settings.php:5
+msgid "Add New Size"
+msgstr "Añadir nuevo tamaño"
+
+#: templates/admin/view_rta_settings.php:5
+msgid "Image Sizes"
+msgstr "Tamaños de imagen"
+
+#: templates/admin/view_rta_regenerate.php:32
+msgid "This option will remove thumbnails not selected in the settings. Good for stale thumbnails, but be sure they are not in use.  "
+msgstr "Esta opción eliminará las miniaturas no seleccionadas en los ajustes. Bueno para miniaturas viejas, pero asegúrate de que no se están usando."
+
+#: templates/admin/view_rta_regenerate.php:30
+msgid "Delete Unused Thumbnails"
+msgstr "Borrar miniaturas sin usar"
+
+#: templates/admin/view_rta_regenerate.php:28
+msgid "Clean-up options"
+msgstr "Opciones de limpieza"
+
+#: templates/admin/view_rta_regenerate.php:9
+msgid "All"
+msgstr "Todo"
+
+#: templates/admin/view_rta_regenerate.php:13
+msgid "Past 3 Months"
+msgstr "Los últimos 3 meses"
+
+#: templates/admin/view_rta_regenerate.php:12
+msgid "Past Month"
+msgstr "El último mes"
+
+#: templates/admin/view_rta_regenerate.php:14
+msgid "Past 6 Months"
+msgstr "Los últimos 6 meses"
+
+#: templates/admin/view_rta_regenerate.php:15
+msgid "Past Year"
+msgstr "El último año"
+
+#: templates/admin/view_rta_regenerate.php:10
+msgid "Past Day"
+msgstr "El último día"
+
+#: templates/admin/view_rta_regenerate.php:11
+msgid "Past Week"
+msgstr "La última semana"
+
+#: templates/admin/view_rta_settings.php:103
+msgid "Saving"
+msgstr "Guardando"
+
+#: templates/admin/view_rta_regenerate.php:7
+msgid "Regenerate period:"
+msgstr "Período de regeneración:"
+
+#: templates/admin/view_rta_settings.php:102
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: templates/admin/view_rta_settings.php:94
+msgid "Default JPEG Quality"
+msgstr "Calidad JPEG por defecto"
+
+#: templates/admin/view_rta_settings.php:85
+msgid "%s Keep existing %s will only generate missing thumbnails of your selected size"
+msgstr "%s Mantener existentes %s solo generará las miniaturas que falten del tamaño seleccionado"
+
+#: rta_admin.php:226
+msgid "No images found for this period or none uploaded"
+msgstr "No se han encontrado imágenes para este período o no se subió ninguna."
+
+#: rta_admin.php:42 templates/admin/rta_generate_thumbnails.php:4
+msgid "Regenerate Thumbnails"
+msgstr "Regenerar miniaturas"
+
+#: language/rta_general.php:16
+msgid "Image Sizes Saved Successfully!"
+msgstr "¡Tamaños de imagen guardados correctamente!"
+
+#: language/rta_general.php:15
+msgid "Non-featured image custom size"
+msgstr "Tamaño personalizado de imagen no destacada"
+
+#: language/rta_general.php:14
+msgid "Featured image custom size"
+msgstr "Tamaño personalizado de imagen destacada"
+
+#: language/rta_general.php:13
+msgid "All thumbnails deleted successfully."
+msgstr "Todas las miniaturas eliminadas correctamente."
+
+#: language/rta_general.php:12
+msgid "Some thumbnail images not deleted"
+msgstr "Algunas miniaturas no se han eliminado"
+
+#: language/rta_general.php:11
+msgid "No thumbnail images found"
+msgstr "No se han encontrado miniaturas"
+
+#: language/rta_general.php:10
+msgid "You are not authorized to do that task"
+msgstr "No estás autorizado para hacer esto"
+
+#: language/rta_general.php:9
+msgid "Settings Saved Successfully!"
+msgstr "¡Ajustes guardados correctamente!"
+
+#: language/rta_general.php:8
+msgid "Upload Field"
+msgstr "Campo de subida"
+
+#: language/rta_general.php:7
+msgid "Text Field"
+msgstr "Campo de texto"
+
+#: language/rta_general.php:6
+msgid "Upload"
+msgstr "Subir"
+
+#: language/rta_general.php:5
+msgid "Update"
+msgstr "Actualizar"
+
+#: language/rta_general.php:4
+msgid "Misc Settings"
+msgstr "Otros ajustes"
+
+#: language/rta_general.php:3 templates/admin/rta_generate_thumbnails.php:8
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com/"
+msgstr "https://shortpixel.com/"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Description of the plugin
+msgid "Regenerate thumbnails fast and easy while removing unused thumbnails of existing images; very useful when changing a theme."
+msgstr "Regenera las miniaturas de forma rápida y fácil mientras eliminas las miniaturas que no se usan de las imágenes existentes; muy útil cuando se cambia de tema."
+
+#. Plugin Name of the plugin
+msgid "Regenerate Thumbnails Advanced"
+msgstr "Regenerate Thumbnails Advanced"

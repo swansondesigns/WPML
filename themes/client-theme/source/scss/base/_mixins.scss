@@ -1,0 +1,49 @@
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+ 	list-style: none;
+}
+@mixin vertical-align-center($adjust: 0) {
+	position: relative;
+	top: (50%);
+	transform: translateY(-50%);
+}
+
+@mixin flexbox-container {
+	display: flex;
+	flex: 1 0 0;
+	justify-content: space-between;
+}
+@mixin flexbox-item ($columns: 1) {
+	flex-grow: 1;
+	padding: 2%;
+	border: 1px solid;
+	width: ( 100% / $columns );
+}
+
+@mixin button {
+	border: 1px solid;
+	padding: 4px 10px;
+	color: #fff;
+	font-style: italic;
+}
+/*******************************************************************************
+*******************************************************************************
+
+		TYPOGRAPHY
+
+*******************************************************************************
+*******************************************************************************/
+
+@mixin font_base {
+	font-family: $font_base_family;
+	font-size: $font_base_size;
+	font-weight: $font_base_weight;
+}
+/*******************************************************************************
+*******************************************************************************
+
+		END TYPOGRAPHY
+
+*******************************************************************************
+*******************************************************************************/
