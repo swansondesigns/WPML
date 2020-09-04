@@ -24,7 +24,7 @@
     "get-size": "^2.0.0",
     "history": "^4.6",
     "masonry-layout": "^4.1.0",
-    "node-sass": "^4.5",
+    "node-sass": "^4.13",
     "outlayer": "^2.1.0"
   },
   "homepage": "https://enviragallery.com",
